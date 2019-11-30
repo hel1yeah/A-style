@@ -1,0 +1,141 @@
+.header {
+  background-image: url(../images/first-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 100vh;
+
+  &-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  &__title {
+    z-index: 5;
+    margin: 0 auto;
+    max-width: 1170px;
+    width: 95%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+
+    &-logo {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 18px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    &-nav {
+      ul {
+        display: flex;
+        justify-content: space-between;
+        width: 490px;
+      }
+
+      li {
+        font-family: 'Open Sans Semibold', sans-serif;
+        font-size: 13px;
+        text-transform: uppercase;
+      }
+    }
+
+    &-telephone {
+      font-family: 'Open Sans Semibold', sans-serif;
+      color: #fff;
+      font-weight: 16px;
+    }
+
+    &-btn {
+      button {
+        width: 165px;
+        height: 36px;
+        border: 2px solid white;
+        border-radius: 20px;
+        background-color: transparent;
+        color: white;
+        font-family: 'Open Sans ExtraBold', sans-serif;
+        text-transform: uppercase;
+        font-size: 11px;
+        transition: .3s;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.header__info {
+  // margin-top: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  color: white;
+
+  &-img {
+    background: url(../images/pages.png);
+    width: 538px;
+    height: 480px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    // margin: auto;
+
+  }
+
+  &-text {
+    max-width: 500px;
+    height: 500px;
+    max-height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    z-index: 2;
+
+    &-title {
+      h1 {
+        font-family: 'Muller', sans-serif;
+        font-size: 60px;
+        line-height: 60px;
+        max-width: 313px;
+        text-transform: uppercase;
+        margin: 40px 0px 0px 0px;
+        font-weight: 800;
+      }
+    }
+
+    &-subtitle {
+
+      // padding-top: 54px;
+      p {
+
+        font-size: 32px;
+        line-height: 40px;
+        font-family: 'Muller', sans-serif;
+        max-width: 440px;
+      }
+    }
+
+    &-btn {
+      button {
+        margin-top: 40px;
+        width: 250px;
+        height: 50px;
+      }
+    }
+  }
+}
+
+.header-down {
+  display: inline;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+

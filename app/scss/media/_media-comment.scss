@@ -1,0 +1,91 @@
+// section comment media queries
+@media screen and (max-width: 780px){
+  .slider-arrow-prev {
+    position: absolute;
+    bottom: -40px;
+    left: 65px;
+    z-index: 3;
+    cursor: pointer;
+  }
+  .slider-arrow-next {
+    position: absolute;
+    bottom: -40px;
+    left: 185px;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 710px){
+  .comment__slider{
+    width: 680px;
+  }
+}
+@media screen and (max-width: 680px){
+  .comment__slider{
+    width: 500px;
+  }
+  .comment__block{
+    height: 100%;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    img {
+      margin-top: 50px;
+      margin-bottom: 40px;
+    }
+  }
+  .comment__description{
+    text-align: left;
+    width: 80%;
+    margin-bottom: 30px;
+    margin-left: 0px;
+  }
+  .slider-arrow-prev {
+    position: absolute;
+    bottom: -40px;
+    left:6%;
+    z-index: 3;
+    cursor: pointer;
+  }
+
+  .slider-arrow-next {
+    position: absolute;
+    bottom: -40px;
+    left: 40%;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 520px){
+  .comment__slider{
+    width: 400px;
+  }
+  .comment__description{
+    width: 90%;
+  }
+}
+@media screen and (max-width: 420px){
+  .comment__slider{
+    width: 320px;
+  }
+  .comment__description{
+    width: 95%;
+  }
+  .slider-arrow-prev {
+    position: absolute;
+    bottom: -40px;
+    left: 6%;
+    z-index: 3;
+    cursor: pointer;
+  }
+  .slider-arrow-next {
+    position: absolute;
+    bottom: -40px;
+    left: 66%;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 420px){
+  .comment__slider{
+    width: 290px;
+  }
+}

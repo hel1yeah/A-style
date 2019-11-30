@@ -1,0 +1,96 @@
+.about {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 100px 0px 160px 0px;
+  height: 100%;
+
+  &-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 2;
+  }
+
+  &::before {
+    content: ' ';
+    background-image: url(../images/lines_bef.png);
+    position: absolute;
+    width: 11px;
+    height: 130px;
+    bottom: -65px;
+    left: 50%;
+    z-index: 1;
+  }
+
+  &_img {
+    display: block;
+    height: 436px;
+    width: 486px;
+    background-image: url('../images/plan.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #5e606a;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+
+    &-text-one {
+      position: absolute;
+      top: 106px;
+      left: 163px;
+      width: 121px;
+    }
+
+    &-text-twoo {
+      position: absolute;
+      top: 250px;
+      right: -28px;
+      width: 160px;
+    }
+
+    &-text-three {
+      position: absolute;
+      top: 287px;
+      left: -25px;
+      width: 155px;
+    }
+
+    &-text-four {
+      position: absolute;
+      top: 438px;
+      left: 187px;
+      width: 155px;
+    }
+  }
+
+  &_info {
+    max-width: 520px;
+    max-height: 600px;
+
+    &-title {
+      font-family: 'Muller', sans-serif;
+      font-size: 32px;
+      line-height: 32px;
+      padding-bottom: 65px;
+      padding-top: 76px;
+    }
+
+    &-subtitle {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 24px;
+      color: #5e606a;
+
+      p:not(:last-child) {
+        padding-bottom: 30px;
+      }
+    }
+  }
+}

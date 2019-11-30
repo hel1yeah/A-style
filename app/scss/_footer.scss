@@ -1,0 +1,27 @@
+.footer{
+  background-color: #65269d;
+  height: 50px;
+  padding: 20px 0;
+  color: #d1bee2;
+  &__wrap{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+
+  }
+  &__confidentiality{
+    &:hover{
+      border-bottom: 1px solid #d1bee2;
+    }
+  }
+  &__designed{
+    a{
+      color: #d1bee2;
+    }
+      
+    &-one{
+      padding-bottom: 20px;
+    }
+  }
+}

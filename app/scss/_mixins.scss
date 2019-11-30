@@ -1,0 +1,45 @@
+//изменение текста по наведению. Используется в header
+@mixin hover-text {
+    &:hover {
+        color: #fff;
+        text-decoration: none;
+        border-bottom: 1px solid #fff;
+    }
+}
+
+//изменение цветов кнопки при новедении. 
+@mixin hover-button {
+    &:hover {
+        color: #fb0275;
+        background: #fff;
+        text-decoration: none;
+    }
+}
+
+
+//миксин для vergical-line. Преобразование span и создание второй линии
+@mixin line-span {
+    span {
+        width: 2px; 
+        height: 84px;
+        background-color: #883eca;
+        border-radius: 10px;
+        &:first-child {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+        }
+    }
+}
+
+
+//миксин для картинок в блоке карты. Отвечает за базовые настройки для позиционирования 
+@mixin map-before {
+    content: "";
+    position: absolute;
+    left: -24px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-repeat: no-repeat;
+
+}

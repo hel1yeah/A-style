@@ -1,0 +1,175 @@
+// section about media queries
+@media screen and (max-width: 1100px) {
+  .about-wrapper {
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .about_img {
+    background-image: url(../images/plan750.png);
+    width: 666px;
+    height: 405px;
+    margin-top: 50px;
+    &-text-one {
+      top: 113px;
+      left: 161px;
+      width: 126px;
+    }
+
+    &-text-twoo {
+      top: 215px;
+      right: -29px;
+      width: 165px;
+    }
+
+    &-text-three {
+      top: 295px;
+      left: -25px;
+      width: 155px;
+    }
+
+    &-text-four {
+      top: 415px;
+      left: 353px;
+      width: 150px;
+
+    }
+  }
+  .about_info {
+    max-width: 95%;
+  }
+}
+@media screen and (max-width: 780px) {
+  .about_img {
+    &-text-one {
+      top: 113px;
+      left: 161px;
+      width: 126px;
+    }
+    &-text-twoo {
+      top: 215px;
+      right: -29px;
+      width: 165px;
+    }
+    &-text-three {
+      top: 295px;
+      left: -25px;
+      width: 155px;
+    }
+    &-text-four {
+      top: 415px;
+      left: 353px;
+      width: 150px;
+
+    }
+  }
+}
+@media screen and (max-width: 725px) {
+  .about {
+    padding: 45px 0px 108px 0px;
+  }
+  .about_info-title {
+    padding: 35px 0px 20px 0px;
+  }
+  .about_info-subtitle p:not(:last-child) {
+    padding-bottom: 18px;
+  }
+  .about_img {
+    background-image: url('../images/plan.png');
+    height: 436px;
+    width: 486px;
+
+    &-text-one {
+      position: absolute;
+      top: 106px;
+      left: 163px;
+      width: 121px;
+    }
+
+    &-text-twoo {
+      position: absolute;
+      top: 250px;
+      right: -28px;
+      width: 160px;
+    }
+
+    &-text-three {
+      position: absolute;
+      top: 287px;
+      left: -25px;
+      width: 155px;
+    }
+
+    &-text-four {
+      position: absolute;
+      top: 438px;
+      left: 187px;
+      width: 155px;
+
+    }
+  }
+}
+@media screen and (max-width: 540px) {
+  .about_info-title {
+    padding-top: 45px;
+    padding-bottom: 35px;
+    height: 100%;
+  }
+  .about_info-subtitle {
+    height: 100%;
+  }
+  .about_img {
+    background-image: url('../images/plan320.png');
+    height: 637px;
+    width: 277px;
+    &-text-one {
+      top: 113px;
+      left: 73px;
+      width: 126px;
+    }
+    &-text-twoo {
+      top: 307px;
+      right: -35px;
+      width: 168px;
+    }
+    &-text-three {
+      top: 401px;
+      left: -22px;
+      width: 152px;
+    }
+    &-text-four {
+      top: 644px;
+      left: 77px;
+      width: 124px;
+    }
+  }
+}
+@media screen and (max-width: 365px) {
+  .about_img {
+    margin-top: 100px;
+  }
+  .about_img-text-twoo {
+    top: 307px;
+    right: 6px;
+    width: 81px;
+  }
+  .about_img-text-three {
+    top: 401px;
+    left: 0px;
+    width: 109px;
+  }
+}
+@media screen and (max-width: 337px) {
+  .about_img {
+    margin-top: 150px;
+  }
+}
+@media screen and (max-width: 314px) {
+  .about_img {
+    margin-top: 240px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .about_img {
+    margin-top: 229px;
+  }
+}

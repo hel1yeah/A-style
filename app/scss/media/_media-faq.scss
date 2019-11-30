@@ -1,0 +1,117 @@
+// section faq media queries faq__background
+@media screen and (max-width: 1140px) {
+  .faq__background{
+    padding-left: 0px;
+  }
+  .ellipse {
+    position: absolute;
+    top: -53px;
+    left: 80%;
+  }
+  .linear-gradient {
+    position: absolute;
+    bottom: -40px;
+    right: -100px;
+    z-index: -1;
+  }
+  .faq__background-wrapper button{
+    z-index: 3;
+  }
+}
+
+@media screen and (max-width: 881px) {
+  .faq-block{
+    width: 100%;
+  }
+  .faq-block {
+    width: 100%;
+    margin-top: 16px;
+  }
+  .faq-block__answer {
+    margin-top: 0px;
+  }
+  .faq__form-input input{
+    margin: 0px;
+    width: 180px;
+    &:first-child {
+      margin-right: 0px;
+    }
+  }
+}
+@media screen and (max-width: 780px) {
+  .faq__wrapper{
+    margin-top: 0px;
+  }
+  .faq__form-title{
+    margin-top: 40px;
+  }
+  .faq__form-title-top{
+    margin-bottom: 45px;
+  }
+  .faq__form-input input {
+    width: 150px;
+    &:first-child {
+      margin-right: 20px;
+    }
+  }
+  .ellipse {
+    position: absolute;
+    top: -53px;
+    left: 70%;
+  }
+  .linear-gradient {
+    position: absolute;
+    bottom: -80px;
+    right: -200px;
+    z-index: -1;
+  }
+}
+@media screen and (max-width: 689px) {
+  .faq__background{
+    height: 100%;
+  }
+  .faq__form-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+  }
+  .faq__background-wrapper button {
+    margin: 30px 0px 20px 0px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .faq__form-title-top{
+    margin-bottom: 10px;
+  }
+  .faq__form-input{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+  }
+  .faq__form-input input {
+    margin-top: 15px;
+    &:first-child {
+      margin-right: 0px;
+    }
+  }
+  .ellipse {
+    width: 120px;
+    top: -14px;
+    left: 72%;
+  }
+  .linear-gradient {
+    display: none;
+  }
+}
+@media screen and (max-width: 406px) {
+  .faq__form-input input {
+    width: 70%;
+  }
+  .faq__form-title{
+    padding-left: 10%;
+  }
+  .ellipse {
+    display: none;
+  }
+}

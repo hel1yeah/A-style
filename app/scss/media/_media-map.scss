@@ -1,0 +1,22 @@
+// section map media queries
+@media screen and (max-width: 1150px) {
+  .map-block {
+    padding: 27px 52px 27px 52px;
+  }
+}
+@media screen and (max-width: 881px) {
+  .map-block {
+    padding: 27px 52px 27px 52px;
+    top: 380px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media screen and (max-width: 406px) {
+  .map-block {
+    padding: 10px 1px 10px 30px;
+    top: 391px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

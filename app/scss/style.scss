@@ -1,0 +1,43 @@
+// Шрифты
+@import 'fonts';
+// Секция Библиотека  animate.css + normalize.css  + slick-slider
+@import 'libs';
+// Секция глобальных свойств 
+@import 'global';
+// Секция перменных
+@import 'mixins';
+// Главная страница
+@import 'header';
+// Секция меню
+@import 'burger-meny';
+// Секция про нас 
+@import 'about';
+// Секция главный слайдер 
+@import 'services';
+// Секция отзывов из слайдером
+@import 'comment';
+// Секция  с вопросами 
+@import 'faq';
+// Секция с картой 
+@import 'map';
+// Подвал
+@import 'footer';
+// Модальное окно
+@import 'modal';
+// Кнопка вверх
+@import 'press-up';
+// 
+
+
+// Медиа запросы
+@import 'media/media-header';
+@import 'media/media-service';
+@import 'media/media-about';
+@import 'media/media-comment';
+@import 'media/media-faq';
+@import 'media/media-footer';
+@import 'media/media-modal';
+@import 'media/media-press-up';
+@import 'media/media-map';
+
+

@@ -1,0 +1,134 @@
+@media screen and (max-width: 1100px){
+  .header__info-img{
+    width: 538px;
+  }
+}
+@media screen and (max-width: 1124px){
+  .header__info-img {
+    width: 471px;
+  }
+}
+@media screen and (max-width: 1024px){
+  .header__title-telephone {
+    display: none;
+  }
+}
+@media screen and (max-width: 967px){
+  .header__info-img {
+    width: 409px;
+  }
+  .header__info-text {
+    width: 387px;
+  }
+}
+@media screen and (max-width: 881px){
+  .header__title-nav{
+    display: none;
+  }
+  .header__info-text-title h1 {
+    width: 225px;
+  }
+}
+@media screen and (max-width: 831px){
+  .header__info-text-title h1{
+    font-size: 40px;
+    line-height: 40px;
+    margin: 0px;
+  }
+  .header__info-text-subtitle p{
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .header__info-text {
+    height: 381px;
+  }
+  .header__title-btn{
+    display: none;
+  }
+  .header__info-img {
+    height: 347px;
+  }
+  .icon-wrap{
+    display: block;
+  }
+}
+@media screen and (max-width: 780px){
+  .header{
+    height:100%;
+  }
+  .header__info-img {
+    width: 457px;
+  }
+}
+@media screen and (max-width: 755px){
+  .header__info-img {
+    width: 375px;
+  }
+  .header__info-text-title h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .header__info-text-subtitle p {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .header__info-text {
+    height: 290px;
+  }
+}
+@media screen and (max-width: 731px) {
+  .header__info{
+    flex-direction: column;
+    margin-bottom: 37px;
+  }
+  .header__info-img {
+    display: inline-block;
+    align-self: center;
+    width: 341px;
+    height: 288px;
+  }
+  .header__info-text-title h1 {
+    font-family: 'Muller', sans-serif;
+        font-size: 36px;
+        line-height: 36px;
+        max-width: 200px;
+        text-transform: uppercase;
+        font-weight: 800;
+        margin-top: 30px;
+  }
+  .header__info-text-subtitle p {
+    padding-top: 30px;
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .header__info{
+    margin-bottom: 111px;
+  }
+  .header__info-text {
+    width: 100%;
+  }
+  .header__info-text-btn button {
+    margin-top: 40px auto;
+    width: 60%;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 551px){
+  .header{
+    height: 823px;
+  }
+  .header__info-text-btn button {
+    width: 100%;
+  }
+  .header__title{
+    padding-top: 10px;
+  }
+  .header-down {
+    padding-bottom: 10px;
+  }
+}
+@media screen and (max-width: 348px){
+  .header__info-img{
+    width: 294px;
+  }
+}

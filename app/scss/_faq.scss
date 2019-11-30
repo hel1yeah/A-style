@@ -1,0 +1,150 @@
+.faq {
+  position: relative;
+  padding: 80px 0 40px 0;
+  min-height: 936px;
+  background-color: #faf8fb;
+  position: relative;
+  &-nav{
+    padding-left: 20px;
+  }
+  &__wrapper {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px 20px 0px 20px;
+  }
+
+  &__form-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+  }
+
+
+  &-block {
+    margin-top: 40px;
+    width: 45%;
+
+    &__question {
+      color: #383d52;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 30.1px;
+    }
+
+    &__answer {
+      margin-top: 25px;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+  }
+
+  &:before {
+    content: ' ';
+    background-image: url(../images/lines_bef.png);
+    position: absolute;
+    width: 11px;
+    height: 130px;
+    bottom: -65px;
+    left: 50%;
+    z-index: 1;
+  }
+
+}
+
+.faq__background {
+  overflow: hidden;
+  position: relative;
+  background-color: #883eca;
+  height: 219px;
+  border-radius: 10px;
+  background-color: rgb(136, 62, 202);
+  box-shadow: 0px 23px 32px 0px rgba(81, 8, 86, 0.33);
+  margin: 70px auto 50px auto;
+  padding-left: 260px;
+  z-index: 1;
+
+  &-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: auto;
+
+    button {
+      margin-left: 40px;
+      width: 195px;
+      height: 50px;
+    }
+  }
+
+
+}
+
+.ellipse {
+  position: absolute;
+  top: 0;
+  left: 30px;
+}
+
+.linear-gradient {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+
+}
+
+.faq__form {
+  &-title {
+    margin-top: 60px;
+
+    &-question {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      line-height: 30.1px;
+      color: #fff;
+      z-index: 6;
+      font-style: italic;
+    }
+
+    &-top {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30.1px;
+      font-weight: 600;
+      color: #fff;
+      z-index: 6;
+    }
+  }
+
+  &-input {
+    z-index: 2;
+    input {
+      width: 220px;
+      font-size: 14px;
+      font-style: italic;
+      line-height: 24px;
+      margin: 15px 0px 0px 0px;
+      border: none;
+      padding: 5px 20px;
+      color: #fff;
+      border-bottom: 0.8px solid #fff;
+      background: transparent;
+      outline: none;
+      &::placeholder {
+        color: #fff;
+      }
+      &:first-child {
+        margin-right: 40px;
+      }
+      &:focus {
+        outline-color: #cccccc;
+      }
+    }
+  }
+}
