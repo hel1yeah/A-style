@@ -113,4 +113,11 @@ $(document).ready(function () {
     return false;
   });
 
+  //МАСКА ВВОДА НОМЕРА НА САЙТЕ 
+
+  $('input[name=phone]').mask("+ 380 -99-99-99-999"); 
+
+
 });
+
+
