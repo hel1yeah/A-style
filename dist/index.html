@@ -10,6 +10,15 @@
   <title>A-style, дизайн, макетирование, astyle, порезка оракала, наружная реклама"</title>
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/style.min.css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149779182-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-149779182-2');
+  </script>
 </head>
 
 <body>
@@ -434,8 +443,8 @@
           <input type="hidden" name="form_subject" value="modal_form">
           <!-- END Hidden Required Fields -->
 
-        <input required autofocus name="name" type="text" placeholder="Ваше имя*" tabindex="1">
-        <input required name="phone" type="number" placeholder="Ваш телефон*" tabindex="2">
+        <input required autofocus name="name" type="text" placeholder="Ваше имя*" >
+        <input required name="phone" type="tel"  placeholder="Ваш телефон*" >
         <textarea class="modal__textarea-desr" name="descr" maxlength="150"
           placeholder="Коротко oпишите проблему"></textarea>
         </textarea>
@@ -447,8 +456,10 @@
   <div class="press-up">
     <a href="#"><img src="images/arrow-up.svg" alt="Вверх"></a>
   </div>
+  
   <script src="js/wow.min.js"></script>
   <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.maskedinput.min.js"></script>
   <script src="js/libs.min.js"></script>
   <script src="js/main.js"></script>
 </body>
